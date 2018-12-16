@@ -4,3 +4,24 @@ body {
     color: white;
     overflow: hidden;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: url('img/page-bg.png') no-repeat center center/cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.animated {
+    font-family: 'Charm', cursive;
+    margin: 0%;
+    padding: 0%;
+    font-size: 6rem;
+    background: url('img/text-bg.png') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
